@@ -6,10 +6,12 @@ int series_sum(int);
 
 int main()
 {
-    int sum,k;
-    k = 10; //Calculating sum of first 10
-
-    sum = series_sum(k);
+    int sum,k, i = 1;
+    //Testing for various values of k
+    for(;i<11;i++)
+    {
+        sum = series_sum(i);
+    }
     return 1;
 }
 
